@@ -1,0 +1,94 @@
+body {
+    background-color: #bfc2c1bb;
+}
+
+.warna1 {
+    background-color: #819A91;
+}
+
+.warna2 {
+    background-color: #A7C1A8;
+}
+
+.warna3 {
+    background-color: #D1D8BE;
+}
+
+.warna4 {
+    background-color: #EEEFE0;
+}
+
+.warna5 {
+    background-color: #2adc36;
+}
+
+.banner {
+    height: 93vh;
+    background: linear-gradient(rgba(142, 142, 142, 0.162), rgba(134, 134, 134, 0.085)), url('../image/Dimsum.jpeg  ');
+    position: relative;
+}
+
+.highlighted-kategori {
+    height: 250px;
+
+
+}
+
+.kategori-dimsum-ayam {
+    background: linear-gradient(rgba(170, 166, 166, 0.484), rgba(0, 0, 0, 0.25)), url('../image/Ayam.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+}
+
+.kategori-dimsum-udang {
+    background: linear-gradient(rgba(255, 255, 255, 0.15), rgba(0, 0, 0, 0.25)), url('../image/Ayam.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.kategori-dimsum-mentai {
+    background: linear-gradient(rgba(255, 255, 255, 0.15), rgba(0, 0, 0, 0.25)), url('../image/Ayam.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.text-harga {
+    font-size: 22px;
+    color: #e07c0a;
+}
+
+.image-box {
+    height: 300px;
+}
+
+.image-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+
+}
+
+.kategori-card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.kategori-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+    z-index: 5;
+}
+
+.kategori-ribbon {
+    top: 18px !important;
+    left: -10px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+}
+
+@media (max-width: 767px) {
+    .kategori-ribbon {
+        font-size: 0.85rem;
+        top: 10px !important;
+    }
+}
